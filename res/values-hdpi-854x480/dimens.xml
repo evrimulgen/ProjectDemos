@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="saf_folder_cover_arrow_width">25dip</dimen>
+	<dimen name="saf_folder_cover_arrow_height">25dip</dimen>
+</resources>

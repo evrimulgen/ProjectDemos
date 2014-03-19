@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <com.projects.demo.view.GuideGallery
+        android:id="@+id/image_wall_gallery"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:unselectedAlpha="1"
+        android:fadingEdge="none"
+		android:spacing="0dp"
+		android:layout_gravity="center_horizontal">
+    </com.projects.demo.view.GuideGallery>
+   
+	<LinearLayout android:orientation="horizontal"
+        android:id="@+id/gallery_point_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+         >
+    </LinearLayout>
+    
+
+</LinearLayout>

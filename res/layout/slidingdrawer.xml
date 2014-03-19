@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/default_homebg">
+
+    <TextView
+                android:id="@+id/tv2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="这是一个滑动式抽屉的示例"
+                android:textColor="#000000"
+                android:textSize="18px"
+                android:textStyle="bold" >
+            </TextView>
+    
+    <SlidingDrawer
+        android:id="@+id/slidingdrawer"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:orientation="vertical"
+		android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@id/handle"
+            android:layout_width="50dip"
+            android:layout_height="44dip"
+            android:src="@drawable/up" />
+
+        <LinearLayout
+            android:id="@id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff" >
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="text in the slidingDrawer"
+                android:textColor="#000000"
+                android:textSize="18px"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+    </SlidingDrawer>
+
+</RelativeLayout>

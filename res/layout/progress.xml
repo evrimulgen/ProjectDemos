@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+    android:indeterminateOnly="false"
+    android:maxHeight="20dip"
+    android:minHeight="20dip"
+    android:progressDrawable="@android:drawable/progress_horizontal"
+    android:secondaryProgress="50" />

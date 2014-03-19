@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#FF000000</color>
+	<color name="control_back">#AA00003D</color>
+	<color name="white">#ffffffff</color>
+	<color name="black">#ff000000</color>
+	<color name="media_controller_bg">#E8E8E8</color>
+	<color name="grey21">#363636</color>
+	<color name="delete_color_filter">#A5FF0000</color>
+	
+	<!-- google plus list -->
+	<color name="item">#ED2676</color>
+    <color name="item_alt">#9D26ED</color>
+    <color name="background_color">#000000</color>
+    
+    <color name="pivot_text">#fff7000e</color>
+</resources>

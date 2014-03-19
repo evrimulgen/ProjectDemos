@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/media_controller_bg"
+    >
+    <ImageButton
+    	android:id="@+id/button3"
+    	android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:scaleType="fitCenter"
+	    android:src="@drawable/media_play"
+	    android:background="#00000000"
+	    android:padding="8dp"
+	    android:layout_centerVertical="true"
+    />
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:thumbOffset="20dip"
+        android:maxHeight="5.0dip"
+        android:minHeight="5.0dip"
+        android:minWidth="20dp"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="20.0dip"
+        android:progress="20"
+        android:secondaryProgress="50"
+        android:progressDrawable="@drawable/seekbar_style"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toLeftOf="@+id/button5"
+        android:thumb="@drawable/thumb" />
+    <ImageButton
+	    	android:id="@+id/button5"
+	    	android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    
+		    android:layout_gravity="center_vertical"
+		    android:src="@drawable/media_sound"
+		    android:scaleType="fitCenter"
+		    android:background="#00000000"
+		    android:padding="8dp"
+		    android:layout_centerVertical="true"
+		    android:layout_toLeftOf="@+id/setting"/>
+    <ImageButton
+    	android:id="@+id/setting"
+    	android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    
+	    android:src="@drawable/media_settings"
+	    android:scaleType="fitCenter"
+	    android:layout_centerVertical="true"
+	    android:layout_toLeftOf="@+id/fullScreen"
+	    android:padding="8dp"
+	    android:background="#00000000"/>
+    <ImageButton
+    	android:id="@+id/fullScreen"
+    	android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    
+	    android:src="@drawable/media_fullscreen_on"
+	    android:scaleType="fitCenter"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	    android:padding="8dp"
+	    android:background="#00000000"/>
+    <!-- <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+    >
+	    <TextView
+	    	android:id="@+id/has_played"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center_vertical"
+	    	android:text="00:00:00"
+	    />
+	    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:thumbOffset="20dip"
+        android:max="100"
+        android:maxHeight="5.0dip"
+        android:minHeight="5.0dip"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="20.0dip"
+        android:progress="20"
+        android:secondaryProgress="50"
+        android:progressDrawable="@drawable/seekbar_style"
+        android:thumb="@drawable/thumb" />
+	    <TextView
+	    	android:id="@+id/duration"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center_vertical"
+	    	android:text="00:00:00"
+		/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:background="#00aaaa"
+    >
+    <ImageButton
+    	android:id="@+id/button1"
+    	android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    
+	    android:layout_gravity="center_vertical"
+	    android:layout_weight="1"
+	    android:src="@drawable/eject"
+	    android:scaleType="fitCenter"
+	    android:background="#00000000"
+    />
+    <ImageButton
+    	android:id="@+id/button2"
+    	android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    
+	    android:layout_gravity="center_vertical"
+	    android:layout_weight="1"
+	    android:src="@drawable/stepbackward"
+	    android:scaleType="fitCenter"
+	    android:background="#00000000"
+    />
+    <ImageButton
+    	android:id="@+id/button3"
+    	android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    
+	    android:layout_gravity="center_vertical"
+	    android:layout_weight="1"
+	    
+	    android:scaleType="fitCenter"
+	    android:background="#00000000"
+    />
+    <ImageButton
+    	android:id="@+id/button4"
+    	android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    
+	    android:layout_gravity="center_vertical"
+	    android:layout_weight="1"
+	    android:src="@drawable/stepforward"
+	    android:scaleType="fitCenter"
+	    android:background="#00000000"
+    />
+    <ImageButton
+    	android:id="@+id/button5"
+    	android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    
+	    android:layout_gravity="center_vertical"
+	    android:layout_weight="1"
+	    android:src="@drawable/soundenable"
+	    android:scaleType="fitCenter"
+	    android:background="#00000000"
+    />
+    </LinearLayout> -->
+</RelativeLayout>
